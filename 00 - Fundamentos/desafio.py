@@ -1,11 +1,11 @@
 menu = """
-
-[d] Depositar
-[s] Sacar
-[e] Extrato
-[q] Sair
-
-=> """
+#----- Ferreira BANK -----#
+| [d] Depositar           |
+| [s] Sacar               |
+| [e] Extrato             |
+| [q] Sair                |
+|_________________________|
+=> Digite sua operação :"""
 
 saldo = 0
 limite = 500
@@ -60,6 +60,7 @@ while True:
         print("==========================================")
 
     elif opcao == "q":
+        print("Obrigado por ser nosso cliente")
         break
 
     else:
